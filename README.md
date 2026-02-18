@@ -154,12 +154,23 @@ INFO:     Application shutdown complete.
 **## Then do the following to kill the process:**
 
 (searchjobs) C:\repos\searchjobs>netstat -ano | findstr :10002
+
+
+
+
   TCP    127.0.0.1:10002        0.0.0.0:0              LISTENING       34884
 
 (searchjobs) C:\repos\searchjobs>taskkill /PID 34884 /F
+
+
+
+
 SUCCESS: The process with PID 34884 has been terminated.
 
 (searchjobs) C:\repos\searchjobs>python -m apply_agent
+
+
+
 INFO:     Started server process [3944]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
